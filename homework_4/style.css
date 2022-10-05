@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    height: 100px;;
+    background-color: yellow;
+    text-align: center;
+}
+
+.h1 {
+    text-align: center;
+}
+
+h2 {
+    position: absolute;
+    top: 320px;
+    left: 10px;
+    width: 100%;
+    }
+h2 span {
+    color: #fff;
+    font-size: 20px;
+    line-height: 50px;
+    background: rgba(0, 0, 0, 0.7);
+    background: #000;
+    padding: 5px;
+    }
+
+h3 {
+    position: absolute;
+    top: 320px;
+    left: 220px;
+    width: 100%;
+    }
+h3 span {
+    color: #fff;
+    font-size: 20px;
+    line-height: 50px;
+    background: rgba(0, 0, 0, 0.7);
+    background: #000;
+    padding: 5px;
+}
+
+h4 {
+    position: absolute;
+    top: 320px;
+    left: 440px;
+    width: 100%;
+}
+h4 span {
+    color: #fff;
+    font-size: 20px;
+    line-height: 50px;
+    background: rgba(0, 0, 0, 0.7);
+    background: #000;
+    padding: 5px;
+}
+
+
+ .container {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 10px;
+    padding-top: 20px;
+}
+
+ .container .btn {
+    position: absolute;
+    top: 450px;
+    left: 150px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+  .container .btn2 {
+    position: absolute;
+    top: 450px;
+    left: 360px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.container .btn3 {
+    position: absolute;
+    top: 450px;
+    left: 560px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.box1 {
+    width: 200px;
+    height: 350px;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 15px;
+    background-color: white;
+    background-image: url(https://st.depositphotos.com/2218430/2752/i/600/depositphotos_27523731-stock-photo-lionel-messi.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.box2 {
+    width: 200px;
+    height: 350px;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 15px;
+    background-color: white;
+    background-image: url(https://avatars.mds.yandex.net/i?id=2a00000183a2043918c76b393e1ca870f212-1607927-fast-images&n=13);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+} 
+.box3 {
+    width: 200px;
+    height: 350px;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 15px;
+    background-color: white;
+    background-image: url(https://m.media-amazon.com/images/M/MV5BZjAxYTI3OGMtODM5Ni00M2MxLWFlNmMtYmI4NjIxYTVlODc2XkEyXkFqcGdeQXVyMjUyNDk2ODc@._V1_.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
