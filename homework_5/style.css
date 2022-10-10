@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    width: 1000px;
+    height: 1200px;
+    border: 1px solid;
+    border-color: black;
+    top: 40px;
+    left: 500px;
+}
+
+.container2 {
+    position: sticky;
+    width: 400px;
+    height: 400px;
+    border: 1px solid;
+    border-color: black;
+    left: 80px;
+    position: sticky;
+    bottom: 250px;
+    min-height: 2em;
+    background: lightpink;
+}
+
+.common-header {
+    font-size: 15px;
+    color: black;
+    background: #d3d3d3;
+    position: absolute;
+    right: 900px;
+    top: 20px;
+}
+
+.common-h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    height: 50px;
+    top: -20px;
+    background: blue;
+    position: absolute;
+}
+
+    .common-section__heading {
+        font-size: 25px;
+        font-weight: bold;
+        color: white;
+        height: 30px;
+        background: blue;
+        position: relative;
+        top: 40px;
+    }
+
+    .common-section-content__paragraph {
+        font-size: 20px;
+        color: black;
+        position: relative;
+        top: 20px;
+    }
